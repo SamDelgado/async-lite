@@ -3,6 +3,7 @@
   "description": "A tiny async library for modern environments with no dependencies, and only containing each, eachSeries, series, and parallel methods.",
   "author": "Sam Delgado",
   "version": "1.0.0",
+  "main": "async-lite.js",
   "keywords": [
     "async",
     "callback",
