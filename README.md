@@ -18,13 +18,13 @@ function someAsyncFunction(item, callback) {
 
   setTimeout(function() {
 
-  if (item.name === "Sam") {
-    alert("That is a great name");
-  } else {
-    alert("You should change your name");
-  }
+    if (item.name === "Sam") {
+      alert("That is a great name");
+    } else {
+      alert("You should change your name");
+    }
 
-  callback(null); // leave the callback empty or callback null if there are no errors
+    callback(null); // leave the callback empty or callback null if there are no errors
 
   }, item.timeToWait);
 
@@ -60,13 +60,13 @@ function someAsyncFunction(item, callback) {
 
   setTimeout(function() {
 
-  if (item.name === "Sam") {
-    alert("That is a great name");
-  } else {
-    alert("You should change your name");
-  }
+    if (item.name === "Sam") {
+      alert("That is a great name");
+    } else {
+      alert("You should change your name");
+    }
 
-  callback(null); // leave the callback empty or callback null if there are no errors
+    callback(null); // leave the callback empty or callback null if there are no errors
 
   }, item.timeToWait);
 
