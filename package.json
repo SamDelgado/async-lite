@@ -1,0 +1,26 @@
+{
+  "name": "async-lite",
+  "description": "A tiny async library for modern environments with no dependencies, and only containing each, eachSeries, series, and parallel methods.",
+  "author": "Sam Delgado",
+  "version": "1.0.0",
+  "keywords": [
+    "async",
+    "callback",
+    "async-lite",
+    "async-light",
+    "utility",
+    "module",
+    "lite",
+    "light"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caolan/async.git"
+  },
+  "bugs": {
+    "url": "https://github.com/caolan/async/issues"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
