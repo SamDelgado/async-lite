@@ -86,7 +86,7 @@ async.eachSeries(myArray, function(item, callback) {
 
 ```
 
-The total time that passed will be at least 1200 milliseconds since Bill had to wait 200 milliseconds for Sam to be done before starting, and then Steve had to wait 400 milliseconds before starting.
+The total time that passed will be at least 1200 milliseconds since Bill had to wait 200 milliseconds for Sam to be done before starting, and then Steve had to wait 400 milliseconds for Bill to be done before starting.
 
 ## series
 
