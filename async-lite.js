@@ -2,6 +2,8 @@
 
 (function() {
 
+  "use strict";
+
   // root is global on the server, and window in the browser
   var root;
   if (typeof window == 'object' && this === window) {
