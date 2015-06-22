@@ -1,6 +1,6 @@
 # Async-Lite.js
 
-[![Build Status via Travis CI](https://travis-ci.org/SamDelgado/async-lite.svg?branch=master)](https://travis-ci.org/caolan/async)
+[![Build Status via Travis CI](https://travis-ci.org/SamDelgado/async-lite.svg?branch=master)](https://travis-ci.org/SamDelgado/async-lite)
 [![NPM version](http://img.shields.io/npm/v/async-lite.svg)](https://www.npmjs.org/package/async-lite)
 
 Async-Lite is a tiny async library (1kb minified) for modern environments with no dependencies, and only containing each, eachSeries, series, and parallel methods. These methods are the ones I most often use when I need asynchronous looping or control flow, so bringing in the entire caolan/async library was overkill. You can use with [Node.js](http://nodejs.org) or in the browser. Install it via `npm install async-lite` or just grab the async-lite.min.js file from this repository.
