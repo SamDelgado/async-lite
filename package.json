@@ -2,7 +2,7 @@
   "name": "async-lite",
   "description": "A tiny async library for modern environments with no dependencies, and only containing each, eachSeries, series, and parallel methods.",
   "author": "Sam Delgado",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "async-lite.js",
   "keywords": [
     "async",
@@ -23,5 +23,14 @@
   },
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "mocha": "2.2.5",
+    "expect.js": "0.3.1",
+    "gulp": "*",
+    "gulp-uglify": "~1.0.2",
+    "gulp-rename": "~1.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
 }
