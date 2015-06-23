@@ -41,7 +41,7 @@ describe('async.eachSeries', function() {
       var time_difference = end_time - start_time;
 
       expect(err).to.not.be.ok();
-      expect(time_difference).to.be.greaterThan(1200);
+      expect(time_difference).to.be.greaterThan(1199);
       done();
 
     });

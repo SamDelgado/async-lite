@@ -49,7 +49,7 @@ describe('async.series', function() {
       expect(results[0]).to.not.be.ok();
       expect(results[1]).to.not.be.ok();
       expect(results[2]).to.not.be.ok();
-      expect(time_difference).to.be.greaterThan(1200);
+      expect(time_difference).to.be.greaterThan(199);
       done();
 
     });
