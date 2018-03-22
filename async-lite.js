@@ -175,8 +175,28 @@
       }
 
       runTask(0);
-    }
+    },
 
+    // https://github.com/rzr/async-waterfall
+    waterfall : function waterfall(tasks, callback /* ... */) {
+      var results = Array.prototype.slice.call(arguments, 2);
+      if (!tasks.length) {
+        results.splice(0, 0, null);  // insert "err" before "results"
+        callback.apply(null, results);
+      } else {
+        var funct = tasks.shift();
+        results.push(function(err,res) {
+          if (err) {
+              return callback(err,res);
+          }
+          var args = [tasks, callback];
+          Array.prototype.push.apply(
+            args, Array.prototype.slice.call(arguments, 1));
+          waterfall.apply(null, args);
+        });
+        funct.apply(null, results);
+      }
+    }
   };
 
   // Node.js
